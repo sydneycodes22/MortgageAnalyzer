@@ -1,3 +1,4 @@
+package MortgageAnalyzer;
 
 import java.util.Scanner;
 
@@ -68,5 +69,17 @@ public class MortgageAnalyzer {
 
     public float getTotalInterestPaid() {
         return totalInterestPaid;
+    }
+
+    public int getLoanAmount() {
+        return loanAmount;
+    }
+
+    public float getAnnualInterestRate() {
+        return annualInterestRate;
+    }
+
+    public int getLoanDuration() {
+        return loanDuration;
     }
 }

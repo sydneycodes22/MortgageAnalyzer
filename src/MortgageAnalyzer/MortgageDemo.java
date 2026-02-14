@@ -1,3 +1,4 @@
+package MortgageAnalyzer;
 
 import java.util.Scanner;
 
